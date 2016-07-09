@@ -4262,7 +4262,8 @@ padding-right: 15px;
   padding-left: 14px;
 }
 .heading{
-  margin-bottom: 101px;
+  margin-bottom: 5% !important;
+  margin-left: 8% !important;
   font-size: 36pt;
   margin-left: 49px;
   font-size: 36pt;
