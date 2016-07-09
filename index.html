@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html style="overflow:hidden;">
+
+<head>
+  <title>MAXTRON</title>
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+  <script type="text/javascript" src="js/isMobile.min.js"></script>
+  <script type="text/javascript" src="js/TweenMax.min.js"></script>
+  <script type="text/javascript" src="js/jquery.gsap.min.js"></script>
+  <script type="text/javascript" src="js/bezierEasing.js"></script>
+  <script type="text/javascript" src="js/maxtron-main.min.js"></script>
+  <script type="text/javascript" src="js/maxtron.min.js"></script>
+  <script src="js/vegas.js"></script>
+  <link rel="stylesheet" href="css/vegas.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/style-kasp.css">
+  <script type="text/javascript">
+  $(function() {
+
+
+    /*      var scene = document.getElementById('scene');
+          var parallax = new Parallax(scene);
+    */
+    $("#main-trans").vegas({
+      slides: [{
+          src: 'img/new1.png'
+        }, {
+          src: 'img/new2.png'
+        }, {
+          src: 'img/new3.png'
+        }, {
+          src: 'img/new4.png'
+        }
+
+      ],
+      transition: 'zoomOut',
+      transitionDuration: 3000,
+      timer: false,
+      shuffle: false,
+      overlay: 'img/01.png'
+    });
+
+
+  });
+  </script>
+</head>
+
+<body class="home">
+  <input type="hidden" id="refreshed" value="no">
+  <div class="loading">
+    <!-- Comments are just to fix whitespace with inline-block -->
+    <div class="Spinner">
+      <!--
+    -->
+      <div class="Spinner-line Spinner-line--1">
+        <!--
+        -->
+        <div class="Spinner-line-cog">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--left"></div>
+          <!--
+        -->
+        </div>
+        <!--
+        -->
+        <div class="Spinner-line-ticker">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--center"></div>
+          <!--
+        -->
+        </div>
+        <!--
+        -->
+        <div class="Spinner-line-cog">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--right"></div>
+          <!--
+        -->
+        </div>
+        <!--
+    -->
+      </div>
+      <!--
+    -->
+      <div class="Spinner-line Spinner-line--2">
+        <!--
+        -->
+        <div class="Spinner-line-cog">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--left"></div>
+          <!--
+        -->
+        </div>
+        <!--
+        -->
+        <div class="Spinner-line-ticker">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--center"></div>
+          <!--
+        -->
+        </div>
+        <!--
+        -->
+        <div class="Spinner-line-cog">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--right"></div>
+          <!--
+        -->
+        </div>
+        <!--
+    -->
+      </div>
+      <!--
+    -->
+      <div class="Spinner-line Spinner-line--3">
+        <!--
+        -->
+        <div class="Spinner-line-cog">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--left"></div>
+          <!--
+        -->
+        </div>
+        <!--
+        -->
+        <div class="Spinner-line-ticker">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--center"></div>
+          <!--
+        -->
+        </div>
+        <!--
+        -->
+        <div class="Spinner-line-cog">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--right"></div>
+          <!--
+        -->
+        </div>
+        <!--
+    -->
+      </div>
+      <!--
+    -->
+      <div class="Spinner-line Spinner-line--4">
+        <!--
+        -->
+        <div class="Spinner-line-cog">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--left"></div>
+          <!--
+        -->
+        </div>
+        <!--
+        -->
+        <div class="Spinner-line-ticker">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--center"></div>
+          <!--
+        -->
+        </div>
+        <!--
+        -->
+        <div class="Spinner-line-cog">
+          <!--
+            -->
+          <div class="Spinner-line-cog-inner Spinner-line-cog-inner--right"></div>
+          <!--
+        -->
+        </div>
+        <!--
+    -->
+      </div>
+      <!--
+
+-->
+    </div>
+    <!--/spinner -->
+  </div>
+  <div class="logo light" style="display: block;">
+    <a href="/"></a>
+  </div>
+  <div class="toggle" style="display: block;" id="navToggle">
+    <div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <div class="menu">
+    <div class="container">
+      <div></div>
+      <div>
+        <ul class="sections">
+          <li><a href="index.html" class="selected">Home</a></li>
+          <!-- <li><a href="#" class="">Works</a></li> -->
+          <li><a href="aboutUs.html" class="">About</a></li>
+          <li><a href="contact.html" class="">Contact</a></li>
+          <li><a href="joinUs.html" class="">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <p style="font-size:9pt;margin-top:15px;">MAXTRON INNOVATIONS. ALL RIGHTS RESERVED. DELHI, INDIA</p>
+      </div>
+    </div>
+  </div>
+  <div class="content" id="content">
+    <ul class="numbers">
+      <li class="active"><a href="javascript:void(0)" onclick="gotoProject(1);">01</a></li>
+      <li class=""><a href="javascript:void(0)" onclick="gotoProject(2);">02</a></li>
+      <li class=""><a href="javascript:void(0)" onclick="gotoProject(3);">03</a></li>
+      <li class=""><a href="javascript:void(0)" onclick="gotoProject(4);">04</a></li>
+      <li class=""><a href="javascript:void(0)" onclick="gotoProject(5);">05</a></li>
+      <li class=""><a href="javascript:void(0)" onclick="gotoProject(6);">06</a></li>
+      <li class=""><a href="javascript:void(0)" onclick="gotoProject(7);">07</a></li>
+      <li class=""><a href="javascript:void(0)" onclick="gotoProject(8);">08</a></li>
+      <li class=""><a href="javascript:void(0)" onclick="gotoProject(9);">09</a></li>
+    </ul>
+    <div class="modules scrollview">
+      <div class="module header" style="z-index: 2;">
+        <div class="page">
+          <div class="container-1">
+            <div class="container-2">
+              <div class="image">
+                <div class="custom">
+                  <div class="content">
+                    <div>
+                      <img src="img/website%20me.png" alt="Mountain View" style="width:518px;">
+                      <h1 style="margin-top:50px;font-size:16pt;">Tell us about your business and we'll ease it out with a custom-built software solution.</h1>
+                    </div>
+                  </div>
+                  <div id="main-trans" style="background-color: #666666; background-size: 100% 100%; background-position: 50% 50%; background-repeat: no-repeat; width:100%; height:100%; position:absolute; top:0; left:0;"></div>
+                  <div id="particles-js">
+                  </div>
+                  <nav class="navbar navbar-inverse navbar-fixed-bottom" style="height: 85px; background-color:transparent; bottom: 0px; width: 100%">
+                    <div class="container-fluid text-center">
+                      <a href="javascript:void(0);" onclick="gotoProject(2)
+                                    "><img src="img/down.png"></a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="module project">
+        <div class="page">
+          <div class="container-1">
+            <div class="container-2">
+              <div class="image">
+                <div class="custom">
+                  <div class="img"><img src="img/M1.png" height="412" width="808" style="margin-left:20%;margin-top:5%;"></div>
+                  <div class="background"></div>
+                  <div class="content">
+                    <div class="row new"></div>
+                    <div class="row">
+                      <p class="heading">ENTERPRISE SOFTWARE</p>
+                    </div>
+                    <div class="navigation ">
+                      <a class="prev" href="maxtronNew/content/erp.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">Enterprise Resource Planning</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="prev" href="maxtronNew/content/crm.html">
+                        <div class="">
+                          <span class="navFontSize">Customer Resource Management</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="all" href="javascript:void(0);" onclick="gotoProject(3)">
+                        <div class="">
+                          <div class="ico "></div><span></span>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/pos.html">
+                        <div class="">
+                          <span class="navFontSize">Point Of Sale Technology</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/sis.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">Stock Inventory Software</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="module project">
+        <div class="page">
+          <div class="container-1">
+            <div class="container-2">
+              <div class="image">
+                <div class="custom">
+                  <div class="img2">
+                    <img src="img/M6.png" height="342" width="812" style="margin-left:20%;position:absolute;top:40%;transform:translateY(-50%)"></div>
+                  <div class="background"></div>
+                  <div class="content">
+                    <div class="row new"></div>
+                    <div class="row">
+                      <p class="heading">DYNAMIC WEB & APP DEVELOPMENT</p>
+                    </div>
+                    <div class="navigation ">
+                      <a class="prev" href="maxtronNew/content/ecom.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">E Commerce</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="prev" href="maxtronNew/content/cms.html">
+                        <div class="">
+                          <span class="navFontSize">Content Management System</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="all" href="javascript:void(0);" onclick="gotoProject(4)">
+                        <div class="">
+                          <div class="ico "></div><span></span>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/webapp.html">
+                        <div class="">
+                          <span class="navFontSize">Dynamic Web Applications</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/mobileapp.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">Mobile Application</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="module project">
+        <div class="page">
+          <div class="container-1">
+            <div class="container-2">
+              <div class="image">
+                <div class="custom">
+                  <div class="indusBack" style="background-size: cover; background-position: 100% 100%; background-repeat: no-repeat;height:100%;">
+                  </div>
+                  <img src="img/M27.png" height="208" width="294" style="margin-left:40%;position:absolute;top:40%;transform:translateY(-50%)">
+                  <!--  <div class="img portrait" data-background=""
+                              style="background: #ec6b56; background-size: cover; background-position: 100% 100%; background-repeat: no-repeat;"></div> -->
+                  <div class="background"></div>
+                  <div class="content">
+                    <div class="row"></div>
+                    <div class="row">
+                      <p class="heading">SOFTWARE DEVELOPMENT</p>
+                    </div>
+                    <div class="navigation ">
+                      <a class="prev" href="maxtronNew/content/industrial.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">Industrial Software</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="prev" href="maxtronNew/content/mgmt.html">
+                        <div class="">
+                          <span class="navFontSize">Management Software</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="all" href="javascript:void(0);" onclick="gotoProject(6)">
+                        <div class="">
+                          <div class="ico "></div><span></span>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/customized.html">
+                        <div class="">
+                          <span class="navFontSize">Customized Web Applications</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/deskapp.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">Desktop Application</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="module project">
+        <div class="page">
+          <div class="container-1">
+            <div class="container-2">
+              <div class="image">
+                <div class="custom">
+                  <div class="img bg-grad" style=""></div>
+                  <div class="img portrait bg-potrait" data-background="" style=""></div>
+                  <img src="img/M14.png" alt="Mountain View" style="width:744px;height:430px;position:absolute;top:45%;left:50%;transform:translate(-50%,-50%)" class="img-fluid">
+                  <div class="background"></div>
+                  <div class="content">
+                    <div class="row"></div>
+                    <div class="row">
+                      <p class="heading">BIG DATA</p>
+                    </div>
+                    <div class="navigation ">
+                      <a class="prev" href="maxtronNew/content/data.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">Data Analytics</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="prev" href="maxtronNew/content/business.html">
+                        <div class="">
+                          <span class="navFontSize">Business Intelligence</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="all" href="javascript:void(0);" onclick="gotoProject(6)">
+                        <div class="">
+                          <div class="ico "></div><span></span>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/ml.html">
+                        <div class="">
+                          <span class="navFontSize">Machine Learning</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/nlp.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">NLP</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="module project">
+        <div class="page">
+          <div class="container-1">
+            <div class="container-2">
+              <div class="image">
+                <div class="custom">
+                  <div class="img touchBack" style=""></div>
+                  <div class="img portrait bg-potrait" data-background="" style=""></div>
+                  <div class="background"></div>
+                  <div class="content">
+                    <!-- <div class="row"><img src="img/bg5.png" alt="Mountain View" style="width:565px;height:430px;margin-left: 400px;margin-bottom: 140px" class="img-fluid" alt="Responsive image"></div>  -->
+                    <div class="row">
+                      <p class="heading">SENSOR BASED SOLUTIONS</p>
+                    </div>
+                    <div class="navigation ">
+                      <a class="prev" href="maxtronNew/content/Gesture Recognition.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">Gesture Based Solution</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="prev" href="maxtronNew/content/Touch Table.html">
+                        <div class="">
+                          <span class="navFontSize">Touch Table</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="all" href="javascript:void(0);" onclick="gotoProject(7)">
+                        <div class="">
+                          <div class="ico "></div><span></span>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/Virtual Mirror.html">
+                        <div class="">
+                          <span class="navFontSize">Virtual Mirror</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/Virtual Mannequin.html" style="background-color: #232327;">
+                        <div class="">
+                          <span class="navFontSize">Virtual Mannequin</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="module project">
+        <div class="page">
+          <div class="container-1">
+            <div class="container-2">
+              <div class="image">
+                <div class="custom">
+                  <div class="img bg-vr"></div>
+                  <div class="img portrait vr-portrait" data-background="" style=""></div>
+                  <div class="background"></div>
+                  <div class="content">
+                    <div class="row">
+                    </div>
+                    <div class="row">
+                      <p class="heading">VIRTUAL REALITY/AUGMENTED REALITY</p>
+                    </div>
+                    <div class="navigation ">
+                      <a class="prev" href="maxtronNew/content/vr.html" style="background-color: #232327;width:45%;">
+                        <div class="">
+                          <span class="navFontSize">Virtual Reality</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <!-- a class="prev" href="maxtronNew/content/ar.html" style="background-color: #232327;">
+                                  <div class="">
+                                    <span>Augmented Reality</span>
+                                  <div class="ico "></div>
+                                  </div>
+                                  </a> -->
+                      <a class="all" href="javascript:void(0);" onclick="gotoProject(8)">
+                        <div class="">
+                          <div class="ico "></div><span></span>
+                        </div>
+                      </a>
+                      <a class="next" href="maxtronNew/content/vr.html" style="background-color: #232327;width:45%;">
+                        <div class="">
+                          <span class="navFontSize">Augmented Reality</span>
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <!--  <a class="next">
+                                    <div class="">
+                                    <div class="ico "></div>
+                                    </div>
+                                    </a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="module project">
+        <div class="page">
+          <div class="container-1">
+            <div class="container-2">
+              <div class="image">
+                <div class="custom">
+                  <div class="img clientBack"></div>
+                  <!-- <div class="img portrait client-portrait" data-background=""></div> -->
+                  <div class="background"></div>
+                  <div class="content">
+                    <div class="row"> <img src="img/M31.png" alt="Mountain View" height="194px" style="margin-left: 70px;margin-bottom: 190px;" class="img-fluid" alt="Responsive image"></div>
+                    <div class="row">
+                      <p class="heading">OUR CLIENTS</p>
+                    </div>
+                    <div class="navigation ">
+                      <a class="prev">
+                        <div class="">
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="prev">
+                        <div class="">
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="all" href="javascript:void(0);" onclick="gotoProject(9)">
+                        <div class="">
+                          <div class="ico "></div><span></span>
+                        </div>
+                      </a>
+                      <a class="next">
+                        <div class="">
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="next">
+                        <div class="">
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="module project" id="before-footer">
+        <div class="page">
+          <div class="container-1">
+            <div class="container-2">
+              <div class="image">
+                <div class="custom">
+                  <div class="img bg-last" style="">
+                  </div>
+                  <div class="background"></div>
+                  <div class="content">
+                    <div style="text-align: center;    position: absolute;top: 37%;color:#FFFFFF">
+                      <h1 style="font-size:12pt;font-family: 'Futura Book BT Regular', sans-serif;padding-bottom: 8px;">
+                                        SO WHAT'S NEXT?
+                                    </h1>
+                      <P style="font-size:36pt;font-family: 'Futura Book BT Regular', sans-serif;">WE'RE READY!</P>
+                      <a href="javascript:void(0);" onclick="showFooter(20)" class="lets-chat">LET'S CHAT.</a>
+                    </div>
+                    <div class="navigation ">
+                      <a class="prev">
+                        <div class="">
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="prev">
+                        <div class="">
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="all" href="javascript:void(0);" onclick="showFooter(20)">
+                        <div class="">
+                          <div class="ico "></div><span></span>
+                        </div>
+                      </a>
+                      <a class="next">
+                        <div class="">
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                      <a class="next">
+                        <div class="">
+                          <div class="ico "></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="spacer"></div>
+  <div class="footer" id="Footer">
+    <div class="container">
+      <div class="row" id="pagefooter">
+        <div class="col-md-4">
+          <p class="footerText">
+            CUSTOMER SUPPORT
+            <br> +91-987654321
+            <br> +91-987654321
+            <br> hello@maxtroninnovations.com
+          </p>
+        </div>
+        <div class="col-md-4">
+          <P class="footerText">
+            CORPORATE OFFICE
+            <br> +91-8791156224, +91-8791700176
+            <br> connect@maxtroninnovations.com
+          </p>
+        </div>
+        <div class="col-md-4 ">
+          <P class="footerText">
+            BRANCH OFFICES
+            <br> +91-987654321
+            <br> +91-987654321
+            <br> hello@maxtroninnovations.com
+          </p>
+        </div>
+      </div>
+      <!-- row end -->
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-xs-12" style="color:#ffffff;">
+          MAXTRON INNOVATIONS. ALL RIGHTS RESERVED. DELHI, INDIA
+        </div>
+      </div>
+    </div>
+    <!-- container end -->
+  </div>
+  <div class="top"></div>
+  <div class="bottom"></div>
+  <div class="left"></div>
+  <div class="right"></div>
+  <div class="cover"></div>
+  <div class="overlay"></div>
+  <!--<script src="js/particles.min.js"></script>-->
+  <!--<script src="js/app.js"></script>-->
+  <!--<script src="js/parallax.js" charset="utf-8"></script>-->
+</body>
+
+</html>
