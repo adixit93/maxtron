@@ -8,6 +8,8 @@
   background-image: url("../img/M26.png") !important;
   background-size: cover;
   background-position: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 @font-face {
@@ -6468,19 +6470,22 @@ html {
     font-size: 36pt;
     margin-left: 49px;
   }
-
   .navigation {
     height: 10%;
   }
-
   .clients-img {
-
+    margin-left: 5%;
+    margin-bottom: 14%;
+    height: 80%;
   }
-
   .dyn-web-dev {
-
+    height: 342px;
+    width: 812px;
+    margin-left: 20%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
   }
-
   #main-trans {
     background-color: #666666;
     background-size: 100% 100%;
@@ -6491,6 +6496,23 @@ html {
     position: absolute;
     top: 0;
     left: 0;
+  }
+  .soft-dev {
+    height: 208px;
+    width: 294px;
+    margin-left: 40%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  .big-data{
+    width:744px;
+    height:430px;
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
   }
 }
 
@@ -6502,11 +6524,21 @@ html {
     margin-left: 49px;
   }
   .navigation {
-    height: 8%;
+    height: 85px;
   }
-  .clients-img {}
-  .dyn-web-dev {}
-
+  .clients-img {
+    margin-left: 5%;
+    margin-bottom: 14%;
+    height: 80%;
+  }
+  .dyn-web-dev {
+    height: 342px;
+    width: 812px;
+    margin-left: 20%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+  }
   #main-trans {
     background-color: #666666;
     background-size: 100% 100%;
@@ -6517,6 +6549,23 @@ html {
     position: absolute;
     top: 0;
     left: 0;
+  }
+  .soft-dev {
+    height: 208px;
+    width: 294px;
+    margin-left: 40%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  .big-data{
+    width:744px;
+    height:430px;
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
   }
 }
 
@@ -6530,9 +6579,19 @@ html {
   .navigation {
     height: 12%;
   }
-  .clients-img {}
-  .dyn-web-dev {}
-
+  .clients-img {
+    margin-left: 5%;
+    margin-bottom: 14%;
+    height: 80%;
+  }
+  .dyn-web-dev {
+    height: 342px;
+    width: 812px;
+    margin-left: 20%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+  }
   #main-trans {
     background-color: #666666;
     background-size: 100% 100%;
@@ -6543,5 +6602,22 @@ html {
     position: absolute;
     top: 0;
     left: 0;
+  }
+  .soft-dev {
+    height: 208px;
+    width: 294px;
+    margin-left: 40%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+
+  .big-data{
+    width:744px;
+    height:430px;
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
   }
 }
