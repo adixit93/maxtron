@@ -6505,21 +6505,19 @@ html {
     top: 40%;
     transform: translateY(-50%);
   }
-
-  .big-data{
-    width:744px;
-    height:430px;
-    position:absolute;
-    top:45%;
-    left:50%;
-    transform:translate(-50%,-50%);
+  .big-data {
+    width: 744px;
+    height: 430px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-
-  .enterprise-img{
-    height:412px;
-    width:808px;
-    margin-left:20%;
-    margin-top:5%;
+  .enterprise-img {
+    height: 412px;
+    width: 808px;
+    margin-left: 20%;
+    margin-top: 5%;
   }
 }
 
@@ -6534,9 +6532,10 @@ html {
     height: 80px;
   }
   .clients-img {
-    margin-left: 5%;
-    margin-bottom: 14%;
-    height: 80%;
+    margin-left: 9%;
+    margin-bottom: 17%;
+    height: 100%;
+    width: 66%;
   }
   .dyn-web-dev {
     height: 342px;
@@ -6560,26 +6559,26 @@ html {
   .soft-dev {
     height: 208px;
     width: 294px;
-    margin-left: 40%;
+    margin-left: 33%;
     position: absolute;
     top: 40%;
     transform: translateY(-50%);
   }
-
-  .big-data{
-    width:744px;
-    height:430px;
-    position:absolute;
-    top:45%;
-    left:50%;
-    transform:translate(-50%,-50%);
+  .big-data {
+    width: 744px;
+    height: 430px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-
-  .enterprise-img{
-    height:412px;
-    width:808px;
-    margin-left:20%;
-    margin-top:5%;
+  .enterprise-img {
+    position: absolute;
+    height: 412px;
+    width: 808px;
+    margin-left: 10%;
+    /* margin-top: 5%; */
+    top: 10%;
   }
 }
 
@@ -6625,20 +6624,18 @@ html {
     top: 40%;
     transform: translateY(-50%);
   }
-
-  .big-data{
-    width:744px;
-    height:430px;
-    position:absolute;
-    top:45%;
-    left:50%;
-    transform:translate(-50%,-50%);
+  .big-data {
+    width: 744px;
+    height: 430px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-
-  .enterprise-img{
-    height:412px;
-    width:808px;
-    margin-left:20%;
-    margin-top:5%;
+  .enterprise-img {
+    height: 412px;
+    width: 808px;
+    margin-left: 20%;
+    margin-top: 5%;
   }
 }
