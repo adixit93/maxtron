@@ -6514,17 +6514,24 @@ html {
     left:50%;
     transform:translate(-50%,-50%);
   }
+
+  .enterprise-img{
+    height:412px;
+    width:808px;
+    margin-left:20%;
+    margin-top:5%;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .heading {
-    margin-bottom: 8% !important;
-    margin-left: 8% !important;
+    margin-bottom: 9% !important;
+    margin-left: 7% !important;
     font-size: 36pt;
     margin-left: 49px;
   }
   .navigation {
-    height: 85px;
+    height: 80px;
   }
   .clients-img {
     margin-left: 5%;
@@ -6566,6 +6573,13 @@ html {
     top:45%;
     left:50%;
     transform:translate(-50%,-50%);
+  }
+
+  .enterprise-img{
+    height:412px;
+    width:808px;
+    margin-left:20%;
+    margin-top:5%;
   }
 }
 
@@ -6619,5 +6633,12 @@ html {
     top:45%;
     left:50%;
     transform:translate(-50%,-50%);
+  }
+
+  .enterprise-img{
+    height:412px;
+    width:808px;
+    margin-left:20%;
+    margin-top:5%;
   }
 }
