@@ -6463,7 +6463,7 @@ html {
   color: #ffffff;
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1080px) {
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
   .heading {
     margin-bottom: 7% !important;
     margin-left: 8% !important;
