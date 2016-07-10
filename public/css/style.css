@@ -6527,7 +6527,73 @@ html {
   }
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1600px) {
+@media screen and (min-width: 1280px) and (max-width: 1599px) {
+  .heading {
+    margin-bottom: 9% !important;
+    margin-left: 7% !important;
+    font-size: 36pt;
+    margin-left: 49px;
+  }
+  .navigation {
+    height: 80px;
+  }
+  .clients-img {
+    margin-left: 9%;
+    margin-bottom: 17%;
+    height: 100%;
+    width: 66%;
+  }
+  .dyn-web-dev {
+    height: 310px;
+    width: 800px;
+    margin-left: 10%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+  #main-trans {
+    background-color: #666666;
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .soft-dev {
+    height: 208px;
+    width: 294px;
+    margin-left: 33%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+  }
+  .big-data {
+    width: 744px;
+    height: 430px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .enterprise-img {
+    position: absolute;
+    height: 412px;
+    width: 808px;
+    margin-left: 17%;
+    top: 15%;
+  }
+
+  .navFontSize {
+    text-transform: uppercase;
+    font-size: 10pt;
+    letter-spacing: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .heading {
     margin-bottom: 9% !important;
     margin-left: 7% !important;
@@ -6594,74 +6660,7 @@ html {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-  .heading {
-    margin-bottom: 9% !important;
-    margin-left: 7% !important;
-    font-size: 36pt;
-    margin-left: 49px;
-  }
-  .navigation {
-    height: 80px;
-  }
-  .clients-img {
-    margin-left: 9%;
-    margin-bottom: 17%;
-    height: 100%;
-    width: 66%;
-  }
-  .dyn-web-dev {
-    height: 310px;
-    width: 800px;
-    margin-left: 10%;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
-  }
-  #main-trans {
-    background-color: #666666;
-    background-size: 100% 100%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .soft-dev {
-    height: 208px;
-    width: 294px;
-    margin-left: 33%;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
-  }
-  .big-data {
-    width: 744px;
-    height: 430px;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .enterprise-img {
-    position: absolute;
-    height: 412px;
-    width: 808px;
-    margin-left: 10%;
-    /* margin-top: 5%; */
-    top: 10%;
-  }
-
-  .navFontSize {
-    text-transform: uppercase;
-    font-size: 10pt;
-    letter-spacing: 0;
-  }
-}
-
-@media screen (max-width: 1024px) {
+@media screen (max-width: 1023px) {
   .heading {
     margin-bottom: 10% !important;
     margin-left: 7% !important;
