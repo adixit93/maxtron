@@ -6544,11 +6544,11 @@ html {
     width: 66%;
   }
   .dyn-web-dev {
-    height: 310px;
-    width: 800px;
-    margin-left: 10%;
+    height: 329px;
+    width: 824px;
+    margin-left: 15%;
     position: absolute;
-    top: 40%;
+    top: 45%;
     transform: translateY(-50%);
   }
   #main-trans {
@@ -6563,9 +6563,9 @@ html {
     left: 0;
   }
   .soft-dev {
-    height: 208px;
-    width: 294px;
-    margin-left: 33%;
+    height: 254px;
+    width: 319px;
+    margin-left: 34%;
     position: absolute;
     top: 40%;
     transform: translateY(-50%);
@@ -6580,10 +6580,10 @@ html {
   }
   .enterprise-img {
     position: absolute;
-    height: 412px;
-    width: 808px;
+    height: 430px;
+    width: 833px;
     margin-left: 17%;
-    top: 15%;
+    top: 19%;
   }
 
   .navFontSize {
