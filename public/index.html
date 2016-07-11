@@ -53,14 +53,19 @@
   </script>
   <script type="text/javascript">
    $(document).ready(function () {
-    $("body").queryLoader2({
-        barColor: "#000000",
-        backgroundColor: "#FFFFFF",
-        percentage: true,
-        barHeight: 3,
-        completeAnimation: "fade",
-        minimumTime: 100
-    });
+    // setTimeout(function(){
+      $("body").queryLoader2({
+          barColor: "#000000",
+          backgroundColor: "#FFFFFF",
+          percentage: true,
+          barHeight: 3,
+          completeAnimation: "fade",
+          minimumTime: 100,
+          onComplete : function(){
+            $(".loading").fadeOut("slow",function(){coverFadeOut(),console.log("page loaded")});
+          }
+      });
+    // },200);
 });
   </script>
 </head>
@@ -68,7 +73,6 @@
 <body class="home">
   <input type="hidden" id="refreshed" value="no">
 
-  <!-- <div id="progressBar" class="tiny-green loading"><div></div></div> -->
   <div class="loading">
         <!-- Comments are just to fix whitespace with inline-block -->
     <div class="Spinner"><!--
