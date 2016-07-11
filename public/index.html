@@ -61,8 +61,9 @@
           barHeight: 3,
           completeAnimation: "fade",
           minimumTime: 100,
+          fadeOutTime : 300,
           onComplete : function(){
-            $(".loading").fadeOut("slow",function(){coverFadeOut(),console.log("page loaded")});
+            $(".loading").fadeOut("fast",function(){coverFadeOut(),console.log("page loaded")});
           }
       });
     // },200);
