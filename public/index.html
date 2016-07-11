@@ -3,10 +3,16 @@
 
 <head>
   <title>MAXTRON</title>
+  <script src="js/tiny-green-progressbar.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/home.css">
+  <link rel="stylesheet" href="css/vegas.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/style-kasp.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <script src="css/tiny-green-progressbar.css"></script>
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
   <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
   <script type="text/javascript" src="js/isMobile.min.js"></script>
   <script type="text/javascript" src="js/TweenMax.min.js"></script>
@@ -15,9 +21,7 @@
   <script type="text/javascript" src="js/maxtron-main.min.js"></script>
   <script type="text/javascript" src="js/maxtron.min.js"></script>
   <script src="js/vegas.js"></script>
-  <link rel="stylesheet" href="css/vegas.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="css/style-kasp.css">
+  <script type="text/javascript" src="js/jquery.queryloader2.js"></script>
   <script type="text/javascript">
   $(function() {
 
@@ -47,10 +51,24 @@
 
   });
   </script>
+  <script type="text/javascript">
+   $(document).ready(function () {
+    $("body").queryLoader2({
+        barColor: "#000000",
+        backgroundColor: "#FFFFFF",
+        percentage: true,
+        barHeight: 3,
+        completeAnimation: "fade",
+        minimumTime: 100
+    });
+});
+  </script>
 </head>
 
 <body class="home">
   <input type="hidden" id="refreshed" value="no">
+
+  <!-- <div id="progressBar" class="tiny-green loading"><div></div></div> -->
   <div class="loading">
         <!-- Comments are just to fix whitespace with inline-block -->
     <div class="Spinner"><!--
@@ -104,6 +122,7 @@
   <div class="logo light" style="display: block;">
     <a href="/"></a>
   </div>
+
   <div class="toggle" style="display: block;" id="navToggle">
     <div>
       <div></div>
@@ -149,7 +168,7 @@
                 <div class="custom">
                   <div class="content">
                     <div>
-                      <img src="img/website%20me.png" alt="Mountain View" style="width:518px;">
+                      <img class="animated fadeInUp" src="img/website%20me.png" alt="Mountain View" style="width:518px;">
                       <h1 style="margin-top:50px;font-size:16pt;">Tell us about your business and we'll ease it out with a custom-built software solution.</h1>
                     </div>
                   </div>
