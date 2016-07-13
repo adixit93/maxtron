@@ -6519,11 +6519,14 @@ html {
     margin-left: 10%;
     margin-top: 10%;
   }
-
   .navFontSize {
     text-transform: uppercase;
     font-size: 14pt;
     letter-spacing: 0;
+  }
+  .navigation .next > div,
+  .navigation .prev > div {
+    line-height: 90px;
   }
 }
 
@@ -6585,11 +6588,14 @@ html {
     margin-left: 17%;
     top: 14%;
   }
-
   .navFontSize {
     text-transform: uppercase;
     font-size: 10pt;
     letter-spacing: 0;
+  }
+  .navigation .next > div,
+  .navigation .prev > div {
+    line-height: 90px;
   }
 }
 
@@ -6652,11 +6658,14 @@ html {
     /* margin-top: 5%; */
     top: 10%;
   }
-
   .navFontSize {
     text-transform: uppercase;
     font-size: 10pt;
     letter-spacing: 0;
+  }
+  .navigation .next > div,
+  .navigation .prev > div {
+    line-height: 90px;
   }
 }
 
@@ -6715,5 +6724,9 @@ html {
     width: 808px;
     margin-left: 20%;
     margin-top: 5%;
+  }
+  .navigation .next > div,
+  .navigation .prev > div {
+    line-height: 90px;
   }
 }
