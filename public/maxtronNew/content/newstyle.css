@@ -161,10 +161,11 @@
   margin-bottom: 0px;
 }
 .logo {
-    background-image: url(img/logosmall.png);
+    background-image: url(img/logonew.png);
+    background-size: 131px 40px;
     z-index: 15;
-    width: 105px;
-    height: 36px;
+    width: 132px;
+    height: 40px;
     margin-top: 0;
     margin-left: 0;
     position: fixed;
