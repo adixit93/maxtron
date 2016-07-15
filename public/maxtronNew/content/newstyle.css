@@ -160,9 +160,11 @@
 .img{
   margin-bottom: 0px;
 }
-.logo {
+
+.logo.light a{
     background-image: url(img/logonew.png);
     background-size: 131px 40px;
+    cursor: pointer !important;
     z-index: 15;
     width: 132px;
     height: 40px;
@@ -173,6 +175,13 @@
     left: 38px;
     background-repeat: no-repeat;
 }
+
+.logo a {
+  width: 131px;
+  height: 40px;
+  display: block;
+}
+
 .details{
   background-color: #ffffff;
   border-left: solid 20px white;
