@@ -49,24 +49,28 @@
 }
 
 .indusBack {
+  width : 100%;
   background-image: url("img/M26.png") !important;
   background-size: cover;
   background-position: 100% 100%;
 }
 
 .conBack {
+  width : 100%;
   background-image: url("img/new4.png") !important;
   background-size: cover;
   background-position: 100% 100%;
 }
 
 .joinBack {
+  width : 100%;
   background-image: url("img/M26.png") !important;
   background-size: cover;
   background-position: 100% 100%;
 }
 
 .ecomBack {
+  width : 100%;
   background-image: url("img/ecomBack.png");
   background-size: cover;
   background-position: 100% 100%;
@@ -77,6 +81,7 @@
 }
 
 .cmsBack {
+  width : 100%;
   background-image: url("img/cmsBack.png");
   background-size: cover;
   background-position: 100% 100%;
@@ -91,6 +96,7 @@
 }
 
 .mobBack {
+  width : 100%;
   background-image: url("img/mobBack.png");
   background-size: cover;
   background-position: 100% 100%;
@@ -102,6 +108,7 @@
 }
 
 .deskBack {
+  width : 100%;
   background-image: url("img/M19.png");
   background-size: cover;
   background-position: 100% 100%;
@@ -122,12 +129,14 @@
 }
 
 .mlBack {
+  width : 100%;
   background-image: url("img/M22.png");
   background-size: cover;
   background-position: 100% 100%;
 }
 
 .nlpBack {
+  width : 100%;
   background-image: url("img/M21.png");
   background-size: cover;
   background-position: 100% 100%;
@@ -138,24 +147,28 @@
 }
 
 .touchBack {
+  width : 100%;
   background-image: url("img/touchTable.png");
   background-size: cover;
   background-position: 100% 100%;
 }
 
 .vmBack {
+  width : 100%;
   background-image: url("img/M24.png");
   background-size: cover;
   background-position: 100% 100%;
 }
 
 .gesBack {
+  width : 100%;
   background-image: url("img/M25.png");
   background-size: cover;
   background-position: 100% 100%;
 }
 
 .vmanBack {
+  width : 100%;
   background-image: url("img/Virtual Mannequin.jpg");
   background-size: cover;
   background-position: 100% 100%;
