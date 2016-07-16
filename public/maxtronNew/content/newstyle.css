@@ -338,7 +338,7 @@ p {
 }
 
 .navigation .prev > div {
-  line-height: 240px;
+  line-height: 105px;
   -webkit-transition: opacity 0.2s linear;
   -moz-transition: opacity 0.2s linear;
   -ms-transition: opacity 0.2s linear;
