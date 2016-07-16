@@ -3,10 +3,26 @@
 <head>
 	<title>Gesture Recognition</title>
 	<link rel="stylesheet" type="text/css" href="newstyle.css">
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.min.js"></script></script>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script type="text/javascript" src="main.min.js"></script>
 	<script type="text/javascript" src="isMobile.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.queryloader2.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $("body").queryLoader2({
+      barColor: "#000000",
+      backgroundColor: "#FFFFFF",
+      percentage: true,
+      barHeight: 3,
+      completeAnimation: "fade",
+      minimumTime: 100,
+      fadeOutTime: 300,
+      onComplete: function() {
+        // $(".loading").fadeOut("fast",function(){coverFadeOut(),console.log("page loaded")});
+      }
+    });
+  });
+  </script>
 </head>
 <body>
   <!-- BY ANUSHA GUPTA -->
