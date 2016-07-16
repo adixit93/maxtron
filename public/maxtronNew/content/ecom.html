@@ -1,150 +1,160 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>E-Commerce</title>
-	<link rel="stylesheet" type="text/css" href="newstyle.css">
-    <script type="text/javascript" src="jquery.min.js"></script>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script type="text/javascript" src="main.min.js"></script>
-	<script type="text/javascript" src="isMobile.min.js"></script>
+  <title>E-Commerce</title>
+  <link rel="stylesheet" type="text/css" href="newstyle.css">
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script type="text/javascript" src="isMobile.min.js"></script>
+  <script type="text/javascript" src="/js/maxtron-main.min.js"></script>
+  <script type="text/javascript" src="/js/maxtron.min.js"></script>
+  <script type="text/javascript" src="/js/jquery.queryloader2.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $("body").queryLoader2({
+      barColor: "#000000",
+      backgroundColor: "#FFFFFF",
+      percentage: true,
+      barHeight: 3,
+      completeAnimation: "fade",
+      minimumTime: 100,
+      fadeOutTime: 300,
+      onComplete: function() {
+        // $(".loading").fadeOut("fast",function(){coverFadeOut(),console.log("page loaded")});
+      }
+    });
+  });
+  </script>
 </head>
+
 <body>
   <!-- BY ANUSHA GUPTA -->
   <div class="main">
- 	<div class="ecomBack content row imgHght">
- 		<div class="col-lg-6"><img src="img/ecomFront.png" width="80%" style="margin-top:25%;margin-left:5%;">
-        </div>
-        <div class="col-lg-6"><p style="margin-top:200px;font-size:38pt;color:#ffffff;text-align:right;">Ecommerce</p>
-        <p style="font-size:16pt;color:#ffffff;text-align:right;">Spread out to world with a powerful e-commerce platform for your business.</p></div>
- 	</div>
- <!-- 	<div class="logo">
- 	<a href="#"></a>
- 	</div> -->
- <a href="/"><div class="logo light" style="display: block;">
-       
-    </div></a>
-
- <div class="toggle" style="display: block;" id="navToggle">
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+    <div class="ecomBack content row imgHght">
+      <div class="col-lg-6"><img src="img/ecomFront.png" width="80%" style="margin-top:25%;margin-left:5%;">
+      </div>
+      <div class="col-lg-6">
+        <p style="margin-top:200px;font-size:38pt;color:#ffffff;text-align:right;">Ecommerce</p>
+        <p style="font-size:16pt;color:#ffffff;text-align:right;">Spread out to world with a powerful e-commerce platform for your business.</p>
+      </div>
+    </div>
+    <!--    <div class="logo">
+    <a href="#"></a>
+    </div> -->
+    <a href="/">
+      <div class="logo light" style="display: block;">
+      </div>
+    </a>
+    <div class="toggle" style="display: block;" id="navToggle">
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
     <div class="menu">
-        <div class="container">
-            <div></div>
-            <div>
-                <ul class="sections">
-                    <li><a href="#" class="selected">Home</a></li>
-                    <!-- <li><a href="#" class="">Works</a></li> -->
-                    <li><a href="/aboutUs.html" class="">About</a></li>
-                    <li><a href="/contact.html" class="">Contact</a></li>
-                </ul>
-            </div>
+      <div class="container">
+        <div></div>
+        <div>
+          <ul class="sections">
+            <li><a href="#" class="selected">Home</a></li>
+            <!-- <li><a href="#" class="">Works</a></li> -->
+            <li><a href="/aboutUs.html" class="">About</a></li>
+            <li><a href="/contact.html" class="">Contact</a></li>
+          </ul>
         </div>
+      </div>
     </div>
-
-
- <div class="details">
- 	<div class="row">
- 		<p style="color:#c9cfd2;padding-top: 40px;">01---</p>
- 		<p style="font-weight: 500;font-size: 20pt">ABOUT E-COMMERCE</p>
-<p style="padding-bottom: 50px;padding-top:20px;font-size:14pt">Maxtron&apos;s E-commerce (electronic commerce or EC) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet. These business transactions occur either as business-to-business, business-to-consumer, consumer-to-consumer or consumer-to-business.
-</p>
- 	</div>
-<div class="row">
- 		<p style="color:#c9cfd2">02---</p>
- 		<p style="font-weight: 500; font-size: 20pt">FEATURES</p>
- 		<p>
- 		<ul style="margin-left: 10%;padding-bottom: 50px;padding-top:20px;font-size: 14pt">
- 		<li>Saves precious time</li>
-			<li>Accurate & to the point information helps consumers to make better buying decision</li>
-			<li>The interaction with consumers will always be impersonal in nature</li>
-			<li>Easy accessibility helps consumers to buy anything & everything as and when they desire for. </li>
-			<li>Helps in cutting the cumbersome supply chain of wholesale & retail and also over reliance on sales force team.</li>
-		</ul>
-		</p>
- 	</div>
-<div class="row">
- 		<p style="color:#c9cfd2">03---</p>
- 		<p style="font-weight: 500;font-size: 20pt;">HOW MAXTRON HELPS YOU?</p>
-<p style="padding-bottom: 50px;padding-top:20px;font-size: 14pt">With our e-commerce system, the sky&apos;s the limit when it comes to your target audience. You can reach any location in the world and take advantage of new opportunities. With increased visibility and sales, you will generate more money, too. Time and money count for a lot, and you don&apos;t want to waste either trying to sell your product to the wrong customers.
-<br>
-Our ecommerce can help your business grow is by providing customers with endless features that make their shopping experience positive. Rather than pushing a shopping cart down an aisle, buyers can easily find the goods they are looking for with search tools. They can also compare shop, allowing them to find the product with the best features at the best price.It helps to reach new customers and earn more profits. It breaks down the barriers that many businesses face when appealing only to a small, local audience.
-</p>
- 	</div>
- </div>
-</div>
-<div class="navigation ">
-
+    <div class="details">
+      <div class="row">
+        <p style="color:#c9cfd2;padding-top: 40px;">01---</p>
+        <p style="font-weight: 500;font-size: 20pt">ABOUT E-COMMERCE</p>
+        <p style="padding-bottom: 50px;padding-top:20px;font-size:14pt">Maxtron&apos;s E-commerce (electronic commerce or EC) is the buying and selling of goods and services, or the transmitting of funds or data, over an electronic network, primarily the internet. These business transactions occur either as business-to-business, business-to-consumer, consumer-to-consumer or consumer-to-business.
+        </p>
+      </div>
+      <div class="row">
+        <p style="color:#c9cfd2">02---</p>
+        <p style="font-weight: 500; font-size: 20pt">FEATURES</p>
+        <p>
+          <ul style="margin-left: 10%;padding-bottom: 50px;padding-top:20px;font-size: 14pt">
+            <li>Saves precious time</li>
+            <li>Accurate & to the point information helps consumers to make better buying decision</li>
+            <li>The interaction with consumers will always be impersonal in nature</li>
+            <li>Easy accessibility helps consumers to buy anything & everything as and when they desire for. </li>
+            <li>Helps in cutting the cumbersome supply chain of wholesale & retail and also over reliance on sales force team.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="row">
+        <p style="color:#c9cfd2">03---</p>
+        <p style="font-weight: 500;font-size: 20pt;">HOW MAXTRON HELPS YOU?</p>
+        <p style="padding-bottom: 50px;padding-top:20px;font-size: 14pt">With our e-commerce system, the sky&apos;s the limit when it comes to your target audience. You can reach any location in the world and take advantage of new opportunities. With increased visibility and sales, you will generate more money, too. Time and money count for a lot, and you don&apos;t want to waste either trying to sell your product to the wrong customers.
+          <br> Our ecommerce can help your business grow is by providing customers with endless features that make their shopping experience positive. Rather than pushing a shopping cart down an aisle, buyers can easily find the goods they are looking for with search tools. They can also compare shop, allowing them to find the product with the best features at the best price.It helps to reach new customers and earn more profits. It breaks down the barriers that many businesses face when appealing only to a small, local audience.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="navigation ">
     <div class="prev">
-    <div>
-    <div class="">
-        <div class="ico "></div>
-        <span class="">previous</span>
+      <div>
+        <div class="">
+          <div class="ico "></div>
+          <span class="">previous</span>
         </div>
-    </div>
+      </div>
     </div>
     <a class="all " href="/">
-    <div class="">
-    <div class="ico "></div><span>Home</span>
-    </div>
+      <div class="">
+        <div class="ico "></div><span>Home</span>
+      </div>
     </a>
     <a class="next" href="cms.html">
-    <div class="">
-    <span>next</span>
-    <div class="ico "></div>
-    </div>
+      <div class="">
+        <span>next</span>
+        <div class="ico "></div>
+      </div>
     </a>
-</div>
-
-<div style="height: 300px; background-color: transparent;
+  </div>
+  <div style="height: 300px; background-color: transparent;
   border-left: solid 20px white;
   border-right: solid 20px white;"></div>
-
-<div class="spacer"></div>
-<div class="footer" style="z-index:-5;">
+  <div class="spacer"></div>
+  <div class="footer" style="z-index:-5;">
     <div class="container">
-        <div class="row" id="pagefooter">
-           <div class="col-md-4">
-	           	<p style="font-size:12pt">
-		           	CUSTOMER SUPPORT<br>
-		           	+91-8791156224, +91-8791700176
-		           	connect@maxtroninnovations.com
-	           	</p>
-           </div>
-
-           <div class="col-md-4">
-	           	<P style="font-size:12pt">
-		           	CORPORATE OFFICE<br>
-		           	+91-8791156224, +91-8791700176
-		           	connect@maxtroninnovations.com
-	           	</p>
-           </div>
-
-           <div class="col-md-4 ">
-	           	<P style="font-size:12pt">
-		           	BRANCH OFFICES<br>
-		           	+91-8791156224, +91-8791700176
-		           	connect@maxtroninnovations.com
-	           	</p>
-           </div>
-        </div>  <!-- row end -->
-
-        <div>
-            MAXTRON INNOVATIONS. ALL RIGHTS RESERVED. DELHI, INDIA
+      <div class="row" id="pagefooter">
+        <div class="col-md-4">
+          <p style="font-size:12pt">
+            CUSTOMER SUPPORT
+            <br> +91-8791156224, +91-8791700176 connect@maxtroninnovations.com
+          </p>
         </div>
-
-    </div>  <!-- container end -->
-</div>
-
-<div class="top"></div>
-<div class="bottom"></div>
-<div class="left"></div>
-<div class="right"></div>
-<div class="cover" style="display: none;"></div>
-<div class="overlay"></div>
-
+        <div class="col-md-4">
+          <P style="font-size:12pt">
+            CORPORATE OFFICE
+            <br> +91-8791156224, +91-8791700176 connect@maxtroninnovations.com
+          </p>
+        </div>
+        <div class="col-md-4 ">
+          <P style="font-size:12pt">
+            BRANCH OFFICES
+            <br> +91-8791156224, +91-8791700176 connect@maxtroninnovations.com
+          </p>
+        </div>
+      </div>
+      <!-- row end -->
+      <div>
+        MAXTRON INNOVATIONS. ALL RIGHTS RESERVED. DELHI, INDIA
+      </div>
+    </div>
+    <!-- container end -->
+  </div>
+  <div class="top"></div>
+  <div class="bottom"></div>
+  <div class="left"></div>
+  <div class="right"></div>
+  <div class="cover" style="display: none;"></div>
+  <div class="overlay"></div>
 </body>
+
 </html>
