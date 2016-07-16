@@ -127,7 +127,7 @@ section {
 
 #pagefooter div:nth-child(1),
 #pagefooter div:nth-child(3) {
-  visibility: hidden;
+  /*visibility: hidden;*/
 }
 
 .logo.light a {
@@ -5460,6 +5460,11 @@ html {
   background-position: 100% 17%;
 }
 
+.contact-footer{
+  
+}
+
+
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .footer .container > div:nth-child(1) {
     height: 220px;
@@ -5517,7 +5522,7 @@ html {
   opacity: 0.3;
 }
 
-.footer .container > div:nth-child(2) {
+/*.footer .container > div:nth-child(2) {
   position: absolute;
   width: 100%;
   color: #69696B;
@@ -5527,7 +5532,7 @@ html {
   font-weight: 100;
   font-size: .625em;
   text-transform: uppercase;
-}
+}*/
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .footer .container > div:nth-child(2) {
