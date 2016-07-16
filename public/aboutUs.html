@@ -11,27 +11,35 @@
   <script type="text/javascript" src="js/maxtron.min.js"></script>
   <script type="text/javascript" src="/js/jquery.queryloader2.js"></script>
   <script type="text/javascript">
-   $(document).ready(function () {
-      $("body").queryLoader2({
-          barColor: "#000000",
-          backgroundColor: "#FFFFFF",
-          percentage: true,
-          barHeight: 3,
-          completeAnimation: "fade",
-          minimumTime: 100,
-          fadeOutTime : 300,
-          onComplete : function(){
-            // $(".loading").fadeOut("fast",function(){coverFadeOut(),console.log("page loaded")});
-          }
-      });
+  $(document).ready(function() {
+    $("body").queryLoader2({
+      barColor: "#000000",
+      backgroundColor: "#FFFFFF",
+      percentage: true,
+      barHeight: 3,
+      completeAnimation: "fade",
+      minimumTime: 100,
+      fadeOutTime: 300,
+      onComplete: function() {
+        // $(".loading").fadeOut("fast",function(){coverFadeOut(),console.log("page loaded")});
+      }
+    });
   });
   </script>
 </head>
 
 <body>
   <div class="main">
-    <div class="content row abtBack " style="height:100%;">
+    <div class="content row abtBack " style="">
       <img src="img/M33.png" width="548px;" height="153px;" style="margin-top:250px;margin-left:360px;">
+      <div class="about-content">
+        <p>
+          "Maxtron is a leading technology company in Information Technology & experiential marketing. With expertise in industry-specific business software we aim to simply the complexity model of business through advanced technology.
+        </p>
+        <p>
+          Maxtron is driving growth of various companies in domains like Logistics, Manufacturing, Industrial, Events & Online Industry. Today, Maxton has scaled its presence to Asia, Africa, Europe, North America & Middle East. Our services are highly appreciated for delivering magnificent insights of businesses. "
+        </p>
+      </div>
     </div>
   </div>
   <div class="logo light" style="display: block;">
